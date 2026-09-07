@@ -17,5 +17,27 @@ It helps bridge the communication gap for the deaf and mute and paralyze communi
 - Urdu Text Translation 
 - Text to Speech in Urdu
 
-## How to Run
-upload all the files in VS code .Install all the libraries then run it .
+# MindGrid — Multimodal Assistive Communication System
+
+MindGrid is a software-driven assistive communication system designed for individuals who cannot speak due to severe motor impairments such as ALS, paralysis, or locked-in syndrome.
+
+## 🚀 System Features
+- **Ocular Tracking**: ParallelIZED Python pipelines utilizing MediaPipe Face Landmarker to process horizontal and vertical iris offsets.
+- **Multimodal Coordination**: Blends eye movements (40%) and head turns (60%) for highly natural, accessible selections.
+- **Dual-Model Hand Gesture Pipeline**: Leverages MediaPipe GestureRecognizer & HandLandmarker for fallback finger counting to achieve 10 discrete manual commands.
+- **Urdu Text-to-Speech**: Instantly maps 16 separate gaze and gesture inputs to real-time Urdu speech output.
+
+## 🛠️ How to Run the Software
+1. Clone or download this repository.
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the live camera system demo:
+   ```bash
+   python live_demo.py --camera webcam
+   ```
+4. Run the offline simulated testing harness (uses keyboard arrow controls):
+   ```bash
+   python live_demo.py
+   ```
