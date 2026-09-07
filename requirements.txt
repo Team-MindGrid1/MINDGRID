@@ -1,0 +1,46 @@
+# MindGrid – Wearable Assistive Glass Dependencies
+# ═══════════════════════════════════════════════════
+
+# ── Core vision / signal processing ──────────────
+opencv-python
+numpy
+scipy
+
+# ── Face mesh / gaze tracking (hardware mode) ───
+mediapipe>=1.0.0
+
+# ── Audio capture & playback ─────────────────────
+sounddevice
+pyttsx3
+gtts
+
+# ── Web server & real-time communication ─────────
+flask
+flask-socketio
+
+# ── Transparent lens display (simulated overlay) ─
+pygame
+
+# ── HTTP & API ───────────────────────────────────
+requests
+
+# ── Configuration ────────────────────────────────
+python-dotenv
+
+# ── Alibaba Cloud ────────────────────────────────
+oss2
+
+# ── OLED display (hardware mode – Raspberry Pi) ──
+# adafruit-circuitpython-ssd1306
+# Pillow
+
+# ── Urdu text rendering (RTL) ────────────────────
+arabic-reshaper
+python-bidi
+
+# ── ModelScope ASR (optional – large download) ───
+# modelscope
+# funasr
+
+# ── Future: I2S mic on Raspberry Pi ─────────────
+# pyaudio
