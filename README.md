@@ -1,9 +1,10 @@
 
-# Mind Grid
+# Mind Grid # MindGrid — Multimodal Assistive Communication System
 
 ## About Project
 Mind Grid is an AI-powered system that translates Sign Language into Urdu text and then converts it to Speech. 
 It helps bridge the communication gap for the deaf and mute and paralyze community in Pakistan.
+
 
 ## Team Members
 - Sajjal Tasleem
@@ -17,9 +18,6 @@ It helps bridge the communication gap for the deaf and mute and paralyze communi
 - Urdu Text Translation 
 - Text to Speech in Urdu
 
-# MindGrid — Multimodal Assistive Communication System
-
-MindGrid is a software-driven assistive communication system designed for individuals who cannot speak due to severe motor impairments such as ALS, paralysis, or locked-in syndrome.
 
 ## 🚀 System Features
 - **Ocular Tracking**: ParallelIZED Python pipelines utilizing MediaPipe Face Landmarker to process horizontal and vertical iris offsets.
